@@ -1,12 +1,12 @@
-@extends("layout.default")
+@extends("layouts.default")
 @section("content")
 		<!--=== Slider ===-->
 		<div class="slider-inner">
 			<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2><i>CLEAN &amp; FRESH</i> <br /> <i>FULLY RESPONSIVE</i> <br /> <i>DESIGN</i></h2>
-					<p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
-					<div class="da-img"><img class="img-responsive" src="{{url('')}}/preview/akawana/assets/plugins/parallax-slider/img/1.png" alt=""></div>
+					<h2><i>Success will be</i> <br /> <i>within</i> <br /> <i>your reach</i></h2>
+					<p><i>Only when you start</i> <br /> <i>reaching out</i> <br /> <i>for it </i></p>
+					<div class="da-img"><img class="img-responsive" src="{{url('')}}/preview/akawana/assets/plugins/parallax-slider/img/01.png" alt=""></div>
 				</div>
 				<div class="da-slide">
 					<h2><i>RESPONSIVE VIDEO</i> <br /> <i>SUPPORT AND</i> <br /> <i>MANY MORE</i></h2>
@@ -32,12 +32,20 @@
 		<div class="purchase">
 			<div class="container overflow-h">
 				<div class="row">
-					<div class="col-md-9 animated fadeInLeft">
-						<span>Unify is a clean and fully responsive incredible Template.</span>
-						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi  vehicula sem ut volutpat. Ut non libero magna fusce condimentum eleifend enim a feugiat corrupti quos.</p>
+					<div class="col-md-8 animated fadeInLeft">
+						<span>PHILOSOPHY OF AKANWANNA.</span>
+						<p align="justify">The issues of development, poverty and death are common perennial questions which Church mechanisms cannot handle alone. Consequently, many in their desperate strait have sought protective and economic solutions from alien sources at the cost of their eternal privileges. It is defeatist however, if we recoil from these challenges without providing grander and legitimate options for succor and socialization of our own to arrest breach or compromise of Adventism.</p>
+						<br>
+						<p align="justify">Therefore, <b>AKANWANNA JIDE AKANWANNA WELFARE ASSOCIATION</b> is a bible based generic concept of some well-intentioned Adventists who were moved by prevailing physical and spiritual necessities and the conscience of the three angels messages to mobilize capacity and critical thinking for Welfare, Evangelism and Development primarily to ensure warmth, growth, stability and empowerment in our missionary zeal.</p>
+						<br>
+						<p align="justify">This welfare-centric principle is calculated to add strategic values, familial taste and appeal to our corporate existence. It enjoins all to shun introversions and show liberal and self-denying spirit by joining clean hands for effective response to felt needs. Hence, <b>AKANWANNA JIDE AKANWANNA</b> is a relational stewardship imperative – and more particularly, a discreet call to be effectually passionate in the concerns of others and the Church (and nothing more!).</p>
+						
 					</div>
-					<div class="col-md-3 btn-buy animated fadeInRight">
-						<a href="#" class="btn-u btn-u-lg"><i class="fa fa-cloud-download"></i> Download Now</a>
+					<div class="col-md-4 animated fadeInRight">
+						<span>PREAMBLE:</span>
+						<p align="justify">We the Seventh-Day Adventist Church members from Eastern Nigeria Union Conference- (ENUC), Delta regions and Diaspora having realized the need to promote the welfare of members agreed on 15th of November 1982 to form a non-discriminating voluntary Association guided by SDAC tenets. This Association is not a tribal confederacy to denature the integral profile of the Church, nor an isolationist cult to fan new answers to salvation, but a supportive self-financing umbrella to hedge the incidental challenges of members and foster deeper relationships and development initiatives while waiting for the sure return of Jesus Christ.</p>
+						<br>
+						<p align="justify">Hence this constitution was enacted and is reviewed this 2016 to shore up operational capacity of the Association, work understandingly and improve due process de facto</p>
 					</div>
 				</div>
 			</div>
@@ -52,7 +60,7 @@
 					<div class="service">
 						<i class="fa fa-compress service-icon"></i>
 						<div class="desc">
-							<h4>Fully Responsive</h4>
+							<h4>Our Mission</h4>
 							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
 						</div>
 					</div>
@@ -61,7 +69,7 @@
 					<div class="service">
 						<i class="fa fa-cogs service-icon"></i>
 						<div class="desc">
-							<h4>HTML5 + CSS3</h4>
+							<h4>Our Vission</h4>
 							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus etiam sem...</p>
 						</div>
 					</div>
@@ -232,7 +240,7 @@
 					<img src="{{url('')}}/preview/akawana/assets/img/clients4/8.png" alt="">
 				</div>
 				<div class="item">
-					<img src="assets/img/clients4/9.png" alt="">
+					<img src="{{url('')}}/preview/akawana/assets/img/clients4/9.png" alt="">
 				</div>
 			</div>
 			<!-- End Owl Clients v1 -->
