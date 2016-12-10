@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9e56c9-8060-482b-b661-013dc4752db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/akanwanna.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/migrations/temp/2016_12_10_163005_create_members_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ff9e56c9-8060-482b-b661-013dc4752db1" name="Default" comment="" />
     <ignored path="keeptick.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,7 +107,7 @@
       <file leaf-file-name="2016_09_28_135042_entrust_setup_tables.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_28_135042_entrust_setup_tables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="17" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.6236162" vertical-offset="409" max-vertical-offset="1292">
+            <state line="35" column="11" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-1.7867298" vertical-offset="955" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -363,7 +351,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272727" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42454395" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -588,7 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_28_135042_entrust_setup_tables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.6236162" vertical-offset="409" max-vertical-offset="1292">
+        <state line="35" column="11" selection-start="1162" selection-end="1162" vertical-scroll-proportion="-1.7867298" vertical-offset="955" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
