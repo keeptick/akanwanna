@@ -11,9 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+Route::get('/', "HomeController@getIndex");
+Route::get('/login', "HomeController@getLogin");
+Route::get('/register', "HomeController@getRegister");
+Route::get('/login/register', "HomeController@getLogReg");
+Route::get('/contact', "HomeController@getContact");
+Route::get('/officers', "HomeController@getOfficers");
+
 Route::group(array('prefix' => 'backend'), function() {
     Route::get('/backend', function () {
         return view('backend.dashboard');
