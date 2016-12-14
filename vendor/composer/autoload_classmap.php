@@ -6,16 +6,23 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddAccessibilityColumnsToMembersTable' => $baseDir . '/database/migrations/2016_12_10_204439_add_accessibility_columns_to_members_table.php',
+    'AddChargesColumnToTransactionsTable' => $baseDir . '/database/migrations/2016_12_10_203916_add_charges_column_to_transactions_table.php',
     'AddFeeColumnToPostsTable' => $baseDir . '/database/migrations/2016_09_11_175147_add_fee_column_to_posts_table.php',
     'AddLayoutColumnToPostsTable' => $baseDir . '/database/migrations/2016_09_09_080157_add_layout_column_to_posts_table.php',
     'AddMenuposidToMenusTable' => $baseDir . '/database/migrations/2016_09_21_050948_add_menuposid_to_menus_table.php',
     'AddSortorderColumnToPostsTable' => $baseDir . '/database/migrations/2016_09_09_080640_add_sortorder_column_to_posts_table.php',
+    'AddViewColumnsToMembersTable' => $baseDir . '/database/migrations/2016_12_10_213754_add_view_columns_to_members_table.php',
     'CreateCommentsTable' => $baseDir . '/database/migrations/2016_09_15_132517_create_comments_table.php',
+    'CreateCountryTable' => $baseDir . '/database/migrations/2016_12_11_042805_create_country_table.php',
+    'CreateEnrolmentsTable' => $baseDir . '/database/migrations/2016_12_10_202540_create_enrolments_table.php',
     'CreateMembersTable' => $baseDir . '/database/migrations/2016_12_10_163005_create_members_table.php',
     'CreateMenuPosTable' => $baseDir . '/database/migrations/2016_09_15_125237_create_menuPos_table.php',
     'CreateMenusTable' => $baseDir . '/database/migrations/2016_09_15_123620_create_menus_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreatePaymentsTable' => $baseDir . '/database/migrations/2016_12_10_203432_create_payments_table.php',
     'CreatePostsTable' => $baseDir . '/database/migrations/2016_09_09_024528_create_posts_table.php',
+    'CreateTransactionsTable' => $baseDir . '/database/migrations/2016_12_10_203234_create_transactions_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'DropForeingKeyMenusTable' => $baseDir . '/database/migrations/2016_09_20_060857_drop_foreing_key_menus_table.php',

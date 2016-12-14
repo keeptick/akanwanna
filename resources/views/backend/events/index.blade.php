@@ -21,6 +21,7 @@ $breadcrumbs["pages"] =""
 //configure ribbon (breadcrumbs) array("name"=>"url"), leave url empty if no url
 //$breadcrumbs["New Crumb"] => "http://url.com"
 //$breadcrumbs["Pages"] = "";
+
 include("inc/ribbon.php");
 ?>
 <?php //$user = \Toddish\Verify\Models\User::find(\Auth::user()->id); ?>
