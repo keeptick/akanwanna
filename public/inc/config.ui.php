@@ -92,6 +92,11 @@ $page_nav = array(
             )
         )
     ),
+    "officers"=>array(
+        "title"=>"Officers",
+        "icon"=>"fa fa-icon",
+        "url"=>"/backend/officers"
+    ),
     "menu"=>array(
         "title"=>"Menu",
         "icon"=>"fa-navicon",

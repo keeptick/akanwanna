@@ -63,6 +63,12 @@ Route::group(array('prefix' => 'backend'), function() {
     Route::post("events/edit/{id?}",["uses"=>"Backend\EventsController@postAddNew"]);
     Route::get("events/categories",["uses"=>"Backend\EventsController@getEventCategoryList"]);
     Route::post("events/categories",['uses'=>"Backend\EventsController@postEventCategory"]);
+    /**
+     * Route for officers
+     */
+    Route::get("officers/",["as"=>"officerslist","uses"=>"Backend\OfficersController@getIndex"]);
+    Route::get("officers/index",["as"=>"officerslist","uses"=>"Backend\OfficersController@getIndex"]);
+    Route::get("officers/addnew/{new?}",["as"=>"addofficer","uses"=>"Backend\OfficersController@getAddNew"]);
 
     /**
      * Route for menu
