@@ -16,10 +16,26 @@
 });*/
 Route::get('/', "HomeController@getIndex");
 Route::get('/login', "HomeController@getLogin");
-Route::get('/register', "HomeController@getRegister");
 Route::get('/login/register', "HomeController@getLogReg");
 Route::get('/contact', "HomeController@getContact");
 Route::get('/officers', "HomeController@getOfficers");
+
+Route::get('/register', "HomeController@getRegister");
+Route::post("register",array("as"=>"register","uses"=>"RegistrationController@postRegistration"));
+Route::get('/success', "RegistrationController@getSuccess");
+Route::get('/bankpay/{id?}/{ref?}', "RegistrationController@getBankPay");
+Route::post('/bankpay', "RegistrationController@postBankPay");
+
+Route::get('/contact', "HomeController@getContact");
+Route::post('/contact', ['as' => 'contact_store', 'uses' => 'HomeController@postContact']);
+Route::get('/officers', "HomeController@getOfficers");
+Route::get('/gallery', "HomeController@getGallery");
+Route::get("/pages/{permalink?}",["as"=>"pageslink","uses"=>"HomeController@getPages"]);
+//Route::get("/pages/about-us",["as"=>"pageslink","uses"=>"HomeController@getAboutUs"]);
+Route::get('posts/',array('as'=>'post','uses'=>'HomeController@getPosts'));
+Route::get('posts/{permalink?}',array('as'=>'pages','uses'=>'HomeController@getPages'));
+Route::Post('pages/{permalink}',array('as'=>'pages','uses'=>'HomeController@postPages'));
+
 
 Route::group(array('prefix' => 'backend'), function() {
     Route::get("/",["as"=>"Dashboard","uses"=>"Backend\HomeController@getDashboard"]);

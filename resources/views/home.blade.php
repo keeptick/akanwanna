@@ -4,20 +4,20 @@
 		<div class="slider-inner">
 			<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2><i>Success will be</i> <br /> <i>within</i> <br /> <i>your reach</i></h2>
-					<p><i>Only when you start</i> <br /> <i>reaching out</i> <br /> <i>for it </i></p>
+					<h2><i>Annual</i> <br /> <i>Convention</i> <br /> <i>14-17th Dec. 2017</i></h2>
+					<p><i>Taking place</i> <br /> <i>at </i> <br /> <i>Osun State </i></p>
 					<div class="da-img"><img class="img-responsive" src="{{url('')}}/preview/akawana/assets/plugins/parallax-slider/img/01.png" alt=""></div>
 				</div>
 				<div class="da-slide">
-					<h2><i>RESPONSIVE VIDEO</i> <br /> <i>SUPPORT AND</i> <br /> <i>MANY MORE</i></h2>
-					<p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i></p>
+					<h2><i>Video</i> <br /> <i>2016 </i> <br /> <i>Convention</i></h2>
+					<p><i>The President </i> <br /> <i>WNUC</i></p>
 					<div class="da-img">
-						<iframe src="http://player.vimeo.com/video/47911018" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<iframe src="https://www.youtube.com/watch?v=9SwyWqY6i60" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
 				</div>
 				<div class="da-slide">
-					<h2><i>USING BEST WEB</i> <br /> <i>SOLUTIONS WITH</i> <br /> <i>HTML5/CSS3</i></h2>
-					<p><i>Lorem ipsum dolor amet</i> <br /> <i>tempor incididunt ut</i> <br /> <i>veniam omnis </i></p>
+					<h2><i>UNLIMITED PRAISE</i> <br /> <i>AND</i> <br /> <i>WORSHIP</i></h2>
+					<p><i>Annual Convention</i> <br /> <i>Dont miss</i> <br /> <i>it </i></p>
 					<div class="da-img"><img src="{{url('')}}/preview/akawana/assets/plugins/parallax-slider/img/html5andcss3.png" alt="image01" /></div>
 				</div>
 				<div class="da-arrows">
