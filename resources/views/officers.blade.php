@@ -5,7 +5,7 @@
     <div class="container">
         <h1 class="pull-left">Officers</h1>
         <ul class="pull-right breadcrumb">
-            <li><a href="{{url('')}}/">Home</a></li>
+            <li><a href="{{url('')}}">Home</a></li>
             <li><a href="#">Officers</a></li>
         </ul>
     </div>
