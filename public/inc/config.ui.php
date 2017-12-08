@@ -78,6 +78,24 @@ $page_nav = array(
                 "title"=>"Event Categories","icon"=>"fa-external-link","url"=>APP_URL."/backend/events/categories"
             )
         )
+    ),"members" => array(
+        "title" => "Members",
+        "icon" => "fa-code",
+        "sub" => array(
+            "list" => array(
+                "title" => "Listing",
+                "url" => '/backend/members/index'
+            ),
+            "addnew" => array(
+                "title" => "Add New",
+                "url" => '/backend/members/addnew'
+            )
+        )
+    ),
+    "officers"=>array(
+        "title"=>"Officers",
+        "icon"=>"fa fa-icon",
+        "url"=>"/backend/officers"
     ),
     "menu"=>array(
         "title"=>"Menu",

@@ -10,4 +10,7 @@ use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     //
+    public function getDashboard(){
+        return View("backend.dashboard",["page_title"=>"Dashboard"]);
+    }
 }

@@ -44,13 +44,20 @@
 <ul class="nav navbar-nav">
 <!-- Home -->
 <li class="active">
-    <a href="{{url('')}}/" class="dropdown-toggle" data-toggle="">
+    <a href="{{url('')}}" class="dropdown-toggle" data-toggle="">
         Home
     </a>
 
 </li>
 <!-- End Home -->
+<!-- About -->
+<li class="">
+    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+        About
+    </a>
 
+</li>
+<!-- End About -->
 <!-- Pages -->
 <li class="">
 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="">
@@ -64,7 +71,6 @@
     <a href="{{url('')}}/officers" class="" data-toggle="">
      Officers
     </a>
-
 </li>
 <!-- End Blog -->
 
@@ -84,14 +90,7 @@
 </li>
 <!-- End Features -->
 
-<!-- Shortcodes -->
-<li class="">
-    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-        About
-    </a>
 
-</li>
-<!-- End Shortcodes -->
 
 <!-- Demo Pages -->
 <li class="">
